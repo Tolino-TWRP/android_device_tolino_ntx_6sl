@@ -10,7 +10,7 @@
 - Tolino Epos
 
 ### How to build TWRP
-1. `repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-7.1`
+1. `repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-6.0`
 2. `repo sync`
 3.  Clone this repo to `device/TOLINO/tolino_generic`
 4.  Apply patches from `device/TOLINO/tolino_generic/patches` directory: `cd bootable/recovery && git apply ../../device/TOLINO/tolino_generic/patches/* && cd ../..`
